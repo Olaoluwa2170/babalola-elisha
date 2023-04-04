@@ -15,7 +15,7 @@ const NavBar = () => {
     return(
     <>
         
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-primary">
+        <div className="fixed z-10 w-full h-[80px] flex justify-between items-center px-4 bg-primary">
             <div>
                 <img src={logo} alt="" className="w-[50px] rounded-full"/>
             </div>
