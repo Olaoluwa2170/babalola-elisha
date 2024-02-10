@@ -17,7 +17,7 @@
     }
 
     .media{
-        @apply w-[160px] h-[50px] ml-[-100px] hover:ml-[-10px] duration-300 rounded-r my-1 
+        @apply w-[160px] md:h-[50px] h-[40px] ml-[-100px] hover:ml-[-10px] duration-300 rounded-r my-2 md:my-1 
     }
 
     .text{

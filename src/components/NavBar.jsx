@@ -8,9 +8,9 @@ import { Link } from "react-scroll"
 
 
 const NavBar = () => {
-    const [nav, Setnav] = useState(false)
+    const [nav, setNav] = useState(false)
     const handleClick = () => {
-        Setnav(!nav)
+        setNav(!nav)
     }
     return(
     <>
@@ -87,24 +87,24 @@ const NavBar = () => {
 
         <div className="lg:flex hidden fixed flex-col top-[35%] left-0">
             <ul>
-                <li className="media bg-blue-500">
-                    <a href="https://www.linkedin.com/in/elisha-babalola-python-dev/" target={"_blank"} className="flex justify-between pt-2 items-center text-gray-100">
+                <li className="media bg-blue-500 opacity-50">
+                    <a href="https://www.linkedin.com/in/elisha-babalola" target={"_blank"} className="flex justify-between pt-2 items-center text-gray-100">
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                 </li>
-                <li className="media bg-gray-700">
+                <li className="media bg-gray-700 opacity-50">
                     <a href="https://github.com/Olaoluwa2170" target={"_blank"} className="flex justify-between pt-2 items-center text-gray-100">
                         GitHub <FaGithub size={30}/>
                     </a>
                 </li>
-                <li className="media bg-red-400">
-                    <a href="" target={"_blank"} className="flex justify-between pt-2 items-center gap-5 text-gray-100">
-                        Twitter <HiOutlineMail size={30}/>
+                <li className="media bg-red-400 opacity-50">
+                    <a href="mailto:elitebabson@gmail.com" target={"_blank"} className="flex justify-between pt-2 items-center gap-5 text-gray-100">
+                        Gmail <HiOutlineMail size={30}/>
                     </a>
                 </li>
-                <li className="media bg-blue-500">
-                    <a href="" target={"_blank"} className="flex justify-between pt-2 items-center gap-5 text-gray-100">
-                        Resume <GrTwitter size={30}/>
+                <li className="media bg-blue-500 opacity-50">
+                    <a href="https://twitter.com/elisha_babalola" target={"_blank"} className="flex justify-between pt-2 items-center gap-5 text-gray-100">
+                        Twitter <GrTwitter size={30}/>
                     </a>
                 </li>
             </ul>

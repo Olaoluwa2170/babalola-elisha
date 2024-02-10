@@ -1,6 +1,7 @@
 import engr from '../assets/images/projectABUAD.png'
 import alien from '../assets/images/alienInvasion.png'
 import stack from '../assets/images/the-stack.png'
+import website from '../assets/images/social-app.png'
 
 const Work = () => {
     return (
@@ -13,23 +14,23 @@ const Work = () => {
             </div>
 
             
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 "> 
+            <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-4 "> 
             {/* grid items */}
-                <div style={{backgroundImage:`url(${engr})`}} 
+                <div style={{backgroundImage:`url(${website})`}} 
                 className="shadow-lg shadow-primary group container rounded-md flex justify-center items-center mx-auto content-div">
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                                React Js Application
+                        <span className='text-1xl font-bold text-white tracking-wider'>
+                                Social Media App with <br/> React Js Application
                         </span>
                         <div className="pt-8 text-center">
-                                <a href="https://olaoluwa2170.github.io/Abuad-SEET/" target='_blank'>
+                                <a target='_blank' href="https://pictorial-ten.vercel.app/" >
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large' >
                                             Demo
                                     </button>
                                 </a>
-                                <a href="https://github.com/Olaoluwa2170/Abuad-SEET" target='_blank'>
+                                <a  href="https://github.com/Olaoluwa2170/BE_Pictorial" target='_blank'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>
                                             Code
                                     </button>
@@ -45,16 +46,16 @@ const Work = () => {
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
+                        <span className='text-1xl font-bold text-white tracking-wider'>
                                 React Js Application
                         </span>
                         <div className="pt-8 text-center">
-                                <a href="https://olaoluwa2170.github.io/the-stack/" target="_blank">
+                                <a target='_blank' href="https://olaoluwa2170.github.io/the-stack/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large' >
                                             Demo
                                     </button>
                                 </a>
-                                <a href="https://github.com/Olaoluwa2170/the-stack" target="_blank">
+                                <a target='_blank' href="https://github.com/Olaoluwa2170/the-stack">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>
                                             Code
                                     </button>
@@ -64,30 +65,7 @@ const Work = () => {
                     </div>
                 </div>
 
-                {/* grid items */}
-                <div style={{backgroundImage:`url(${alien})`}} 
-                className="shadow-lg shadow-primary group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                                Pygame Alien Invasion
-                        </span>
-                        <div className="pt-8 text-center">
-                                <a href="">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large' >
-                                            Demo coming soon...
-                                    </button>
-                                </a>
-                                <a href="https://github.com/Olaoluwa2170/alien_invasion" target="_blank">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>
-                                            Code
-                                    </button>
-                                </a>
-                                
-                        </div>
-                    </div>
-                </div>
+               
                 
                 {/* grid items */}
                 <div style={{backgroundImage:`url(${alien})`}} 
@@ -95,16 +73,11 @@ const Work = () => {
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                                React Js Application
+                        <span className='text-1xl font-bold text-white tracking-wider'>
+                                Alien Invasion Game <br/> With Python
                         </span>
                         <div className="pt-8 text-center">
-                                <a href="">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large' >
-                                            Demo
-                                    </button>
-                                </a>
-                                <a href="">
+                                <a target='_blank' href="https://github.com/Olaoluwa2170/alien_invasion">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>
                                             Code
                                     </button>
@@ -119,16 +92,16 @@ const Work = () => {
                     
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                                React Js Application
+                        <span className='text-1xl font-bold text-white tracking-wider'>
+                                University of <br/> ABUAD(LAW) <br/> Demo site with React Js
                         </span>
                         <div className="pt-8 text-center">
-                                <a href="">
+                                <a target='_blank' href="https://olaoluwa2170.github.io/Abuad-Law/">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large' >
                                             Demo
                                     </button>
                                 </a>
-                                <a href="">
+                                <a target='_blank' href="https://github.com/Olaoluwa2170/Abuad-SEET">
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>
                                             Code
                                     </button>
@@ -138,30 +111,7 @@ const Work = () => {
                     </div>
                 </div>
                 
-                {/* grid items */}
-                <div style={{backgroundImage:`url(${alien})`}} 
-                className="shadow-lg shadow-primary group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    {/* Hover Effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                                React Js Application
-                        </span>
-                        <div className="pt-8 text-center">
-                                <a href="">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large' >
-                                            Demo
-                                    </button>
-                                </a>
-                                <a href="">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-large'>
-                                            Code
-                                    </button>
-                                </a>
-                                
-                        </div>
-                    </div>
-                </div>
+                
             </div>
             
         </div>
