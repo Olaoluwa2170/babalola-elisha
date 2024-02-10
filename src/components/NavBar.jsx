@@ -15,7 +15,7 @@ const NavBar = () => {
     return(
     <>
         
-        <div className="z-10 w-full flex justify-between items-center px-4 h-full bg-primary">
+        <div className="w-full sticky top-0 flex justify-between items-center px-4 h-20 mb-5 z-[2] bg-primary">
             <div>
                 <img src={logo} alt="" className="w-[50px] rounded-full"/>
             </div>
@@ -56,7 +56,7 @@ const NavBar = () => {
         </div>
 
         {/* Menu */}
-        <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
+        <ul className={!nav ? "hidden" : "absolute z-[2] top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
             
             <li className="py-6 text-xl">
                     <Link to="home" smooth={true} duration={500} >
