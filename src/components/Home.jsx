@@ -31,7 +31,7 @@ const Home = () => {
                             </div>
                         </Link>
                         </div>
-                        <div className='mt-5 md:hidden block'>
+                        <div className='mt-5 h-[10%] md:hidden block z-[1]'>
                             <ul>
                                 <li className="bg-blue-500 py-2 my-2 rounded-lg opacity-50">
                                     <a href="https://www.linkedin.com/in/elisha-babalola" target={"_blank"} className="flex justify-between pt-2 items-center text-gray-100">

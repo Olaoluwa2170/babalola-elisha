@@ -12,15 +12,14 @@ function App() {
 
   return (
     
-      <main className="h-screen overflow-hidden">
-        <div className="h-[10%]"><NavBar/></div>
-          <div className="h-[90%] customscroll overflow-auto">
-            <Home/>
+
+      <main className="bg-primary">
+      <NavBar/>
+      <Home/>
             <About/>
             <Skills/>
             <Work/>
             <Contact/>
-          </div>
       </main>
     
   )
