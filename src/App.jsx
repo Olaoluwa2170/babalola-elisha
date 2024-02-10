@@ -11,14 +11,18 @@ function App() {
   
 
   return (
-    <>
-      <NavBar/>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Work/>
-      <Contact/>
-    </>
+    
+      <main className="h-screen overflow-hidden">
+        <div className="h-[10%]"><NavBar/></div>
+          <div className="h-[90%] customscroll overflow-auto">
+            <Home/>
+            <About/>
+            <Skills/>
+            <Work/>
+            <Contact/>
+          </div>
+      </main>
+    
   )
 }
 

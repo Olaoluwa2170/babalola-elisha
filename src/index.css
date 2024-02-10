@@ -5,7 +5,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.customscroll::-webkit-scrollbar {
+    width: 8px;  
+}
 
+.customscroll::-webkit-scrollbar-track {
+    background-color: #0a192f;
+}
+
+.customscroll::-webkit-scrollbar-thumb {
+    background-color: #373333; 
+    border-radius: 6px; 
+}
+
+.customscroll::-webkit-scrollbar-thumb:hover {
+    background-color: #373333;
+}
 
 @layer{
     li{
